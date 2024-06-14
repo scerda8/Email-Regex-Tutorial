@@ -47,4 +47,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-This tutorial was written by Shandy Cerda, a web development student eager to learn and see where it takes me. For further insights into my work, feel free to explore my [GitHub profile] (#https://github.com/scerda8)
+This tutorial was written by Shandy Cerda, a web development student eager to learn and see where it takes me. For further insights into my work, feel free to explore my [Github profile](https://github.com/scerda8)
