@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Title (Regex Tutorial:Matching an Email)
 
-Introductory paragraph (replace this with your text)
+Regular expressions, or regex, are like powerful search tools for finding patterns in text. In this tutorial we will be explaining how that is incorporated in an email expression using regex. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+ We will be breaking down the use of regex to match emails using this expression:
+  /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+  
+
+ By creating a regex pattern to match email addresses, we can easily validate and extract email data from text. This helps a lot with tasks like checking if an email address is correctly formatted or extracting email addresses from a larger piece of text.
 
 ## Table of Contents
 
@@ -45,6 +49,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-This tutorial was written by Shandy Cerda, a web development student eager to learn and see where it takes me. For further insights into my work, feel free to explore my [Github profile](https://github.com/scerda8)
+ Shandy Cerda,
+I am a dedicated web development student who is passionate about learning and eager to see where this journey takes me.For further insights into my work, feel free to explore my [Github profile](https://github.com/scerda8).
