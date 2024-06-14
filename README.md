@@ -1,1 +1,1 @@
-# JavaScript-Regex-Tutorial
+# Email-Regex-Tutorial
