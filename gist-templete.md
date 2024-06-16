@@ -17,15 +17,11 @@ Regular expressions, or regex, are like powerful search tools for finding patter
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -40,13 +36,17 @@ Regular expressions, or regex, are like powerful search tools for finding patter
 
 
 ### Quantifiers
+` Quantifiers determine how many times a character or a group of characters can appear.`
 
-
-### OR Operator
+1. `+` which is shown in 1 or more occurrences.
+  * Used in `[a-z0-9_\.-]+` which indicates the "username" in the beginning of the email
+  * Then it's used in `)@([\da-z\.-]+` which indicates the "email service provider" after the username in the email
+  * Lastly it's used in `)\.([a-z\.]` which indicates the "domain extension" (examples:`.com , .org, .edu, .net`) after the `@` in the email
+    
+2. `{2,6}` which is shown between 2 and 6 occurrences.
+ *it is used in `[a-z\.]{2,6}` it specifies that the TLD (Top-Level Domain) part of the email address can contain between 2 to 6 characters of lowercase letters (a-z) or dot (.)
 
 ### Character Classes
-
-### Flags
 
 ### Grouping and Capturing
 
@@ -54,13 +54,7 @@ Regular expressions, or regex, are like powerful search tools for finding patter
 
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
  Shandy Cerda,
 
-I am a dedicated web development student who is passionate about learning and eager to see where this journey takes me.For further insights into my work, feel free to explore my [Github profile](https://github.com/scerda8).
+I am a dedicated web development student who is passionate about learning and eager to see where this journey takes me. For further insights into my work, feel free to explore my [Github profile](https://github.com/scerda8).
